@@ -202,6 +202,7 @@ body{
     background-repeat: no-repeat;
     padding-bottom: 600px;
     margin-left: 220px;
+    margin-top: 200px;
 }
 
 .l-title h2{
@@ -228,7 +229,6 @@ body{
     display: flex;
     margin-left: 300px;
     padding-top: 50px;
-    margin-bottom: 100px;
 }
 
 .text-email{
@@ -240,11 +240,59 @@ body{
     border: none;
 }
 
-.btn{
-    width: 150px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 8px;
+.btn2{
+    border-radius: 5px;
     background: #E55473;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
     margin-left: 20px;
 }
+/* footer */
+.foot{
+    background-color: black;
+    justify-content: space-around;
+    padding-left: 550px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+.content{
+    text-align: center;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 800px;
+}
+.conh{
+    padding-top: 500px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.end{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flower-white{
+    color: white;
+}
+
+
+/* footer > div{
+    max-width: 600px;
+    padding-right: 11020px;
+} */
