@@ -1,6 +1,5 @@
 body{
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .btn{
@@ -191,6 +190,61 @@ body{
     margin: 30px 200px 100px 200px;
 }
 
-.flower1{
+.flower2{
     margin-left: 40px;
+}
+
+
+/* latest deals section */
+
+.latest-deals{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    padding-bottom: 600px;
+    margin-left: 220px;
+}
+
+.l-title h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.l-title p{
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.l-title{
+    margin-right: 220px;
+    padding-top: 50px;
+}
+
+.email{
+    display: flex;
+    margin-left: 300px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.text-email{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.btn{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 20px;
 }
