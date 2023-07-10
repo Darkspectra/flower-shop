@@ -16,18 +16,13 @@ body{
 
 .flower-pic{
     margin-bottom: 0;
-    padding-right: 150px;
 }
 
 .banner{
-    padding: 30px 0px 0px 200px;
+    padding: 30px 200px 0px 200px;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    background-color: rgba(229, 84, 115, 0.10);
-    /* width: 1920px;
-    height: 850px;
-    flex-shrink: 0; */
+    background-color: black;
 }
 
 .banner-content{
@@ -36,7 +31,7 @@ body{
 }
 
 .banner-title{
-    color: #272727;
+    color: #ffffff;
     font-family: Lato;
     font-size: 80px;
     font-weight: 800;
@@ -44,12 +39,143 @@ body{
 }
 
 .banner-description{
-    color: rgba(7, 7, 7, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-family: Lato;
     font-size: 28px;
     font-weight: 400;
     line-height: 30px;
 }
 
-/* Body style part start here */
+/* feature-flower style part start here */
 
+.flower-types-title{
+    padding: 30px 660px 0px 660px;
+    max-width: 600px;
+}
+
+.featured-description{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.featured-flower{
+    text-align: center;
+    color: #272727;
+    font-size: 28px;
+}
+
+.flower-types{
+    margin-top: 100px;
+}
+/* three flowers */
+
+.flowers{
+    /* justify-content: space-around; */
+    /* padding: 30px 200px 0px 200px; */
+    margin: 70px 240px 200px 400px;
+    display: flex;
+    gap: 24px;
+}
+
+.box1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
+    margin: 10px;
+    padding: 50px 20px 0 20px;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: 0px 66px 50px 0px rgba(255, 0, 0, 0.06);
+}
+
+.box2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 310px;
+    height: 428px;
+    padding: 50px 20px 0 20px;
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: 0px 66px 50px 0px rgba(112, 89, 243, 0.06);
+}
+
+.box3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 310px;
+    height: 428px;
+    margin: 10px;
+    padding: 50px 20px 0 20px;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: 0px 66px 50px 0px rgba(154, 154, 156, 0.06);
+}
+
+.fl2{
+    margin-top: 114px;
+}
+
+.flower-image1{
+    width: auto;
+}
+
+.flower-image3{
+    width: 285px;
+}
+
+.flower-image2{
+    width: 330px;
+}
+
+
+/* deals and offers */
+
+.hot-deals > div{
+    padding-bottom: 50px;
+}
+
+.deals{
+    padding: 30px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.deals-content{
+    text-align: center;
+    width: 600px;
+    padding-left: 250px;
+    padding-top: 150px;
+}
+
+
+.deal-flower-move{
+    padding-right: 230px;
+    padding-top: 60px;
+}
+
+.deals-title{
+    color: white;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-description{
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.off{
+    color:#E55473;
+}
