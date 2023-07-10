@@ -1,0 +1,55 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.flower-pic{
+    margin-bottom: 0;
+    padding-right: 150px;
+}
+
+.banner{
+    padding: 30px 0px 0px 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+    /* width: 1920px;
+    height: 850px;
+    flex-shrink: 0; */
+}
+
+.banner-content{
+    margin-top: 50px;
+    width: 700px;
+}
+
+.banner-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.banner-description{
+    color: rgba(7, 7, 7, 0.6);
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Body style part start here */
+
