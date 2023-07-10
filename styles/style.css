@@ -48,12 +48,12 @@ body{
 
 /* feature-flower style part start here */
 
-.flower-types-title{
+.flower-types-title, .instagram-title{
     padding: 30px 660px 0px 660px;
     max-width: 600px;
 }
 
-.featured-description{
+.featured-description, .instagram-description{
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -61,7 +61,7 @@ body{
     font-weight: 800;
 }
 
-.featured-flower{
+.featured-flower, .instagram{
     text-align: center;
     color: #272727;
     font-size: 28px;
@@ -117,7 +117,11 @@ body{
 }
 
 .fl2{
-    margin-top: 114px;
+    margin-top: 64px;
+}
+
+.move-fl2{
+    padding-top: 50px;
 }
 
 .flower-image1{
@@ -178,4 +182,15 @@ body{
 
 .off{
     color:#E55473;
+}
+
+/* four flowers */
+
+.four-flowers{
+    display: flex;
+    margin: 30px 200px 100px 200px;
+}
+
+.flower1{
+    margin-left: 40px;
 }
