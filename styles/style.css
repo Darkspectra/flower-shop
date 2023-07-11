@@ -291,8 +291,68 @@ body{
     color: white;
 }
 
+.line{
+    color: #FFF;
+}
 
-/* footer > div{
-    max-width: 600px;
-    padding-right: 11020px;
-} */
+/* and more */
+
+.and-more-contents{
+    display: flex;
+}
+
+.and-more{
+    background-color: rgb(255, 255, 255);
+    margin: 30px 200px 100px 200px;
+    padding-top: 100px;
+}
+
+.move-mpic1{
+    padding-bottom: 50px;
+}
+
+.move-mpic2{
+    padding-top: 50px;
+    
+}
+
+.movep1{
+    width: 1000px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 30px 30px 50px 0px rgb(228, 224, 223);
+}
+
+.and-more-description{
+    color: #000000;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+
+}
+
+.more-header{
+    text-align: center;
+    color: #000000;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.part1{
+    margin: 30px 40px 20px 40px;
+    /* margin: 40px; */
+    width: 600px;
+}
+
+.part2{
+    width: 600px;
+    margin: 65px 40px 20px 40px;
+}
+
+.fseed{
+    text-align: left;
+    font-size: 48px;
+}
